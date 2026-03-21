@@ -1,0 +1,30 @@
+<section class="form-section">
+    <h2>Stimme ab!</h2>
+    <form id="vote-form">
+        <div class="form-group">
+            <label for="name">Dein Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Wie heisst du?">
+        </div>
+
+        <div class="form-group">
+            <label for="nickname">Dein Spitzname:</label>
+            <input type="text" id="nickname" name="nickname" required placeholder="Dein Spitzname">
+        </div>
+
+        <div class="form-group">
+            <label for="selectedGame">Beliebte Spiele:</label>
+            <select id="selectedGame" name="selectedGame">
+                <option value="">-- Waehle ein Spiel --</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="newGame">Oder ein anderes Spiel:</label>
+            <input type="text" id="newGame" name="newGame" placeholder="Neues Spiel eingeben">
+            <small>Falls dein Lieblingsspiel nicht in der Liste ist</small>
+        </div>
+
+        <button type="submit" class="submit-btn">Abstimmen!</button>
+    </form>
+    <div id="message" class="message"></div>
+</section>

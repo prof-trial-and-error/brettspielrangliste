@@ -1,0 +1,8 @@
+_site/
+.jekyll-cache/
+.sass-cache/
+Gemfile.lock
+apps_script.txt
+plan.md
+plan2.md
+CLAUDE.md

@@ -1,0 +1,15 @@
+title: "Lieblingsspiele - Kinder Brettspiel Ranking"
+description: "Kinder Brettspiel Rangliste — Welches Brettspiel magst du am liebsten?"
+baseurl: ""
+url: ""
+
+# Google Apps Script endpoint (handles both GET for rankings and POST for votes)
+google_apps_script_url: "https://script.google.com/macros/s/AKfycbyZ01MD2DDxeEt2BhmxnBfoW9-ZzQ6VRUMIDICaPWROKvU0Cl76rrt7wLuiT_HAogfl/exec"
+
+# Jekyll settings
+markdown: kramdown
+exclude:
+  - data
+  - plan.md
+  - README.md
+  - Gemfile.lock
