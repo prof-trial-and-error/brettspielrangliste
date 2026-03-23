@@ -20,7 +20,10 @@ Children's board game ranking website where kids vote for their favorite games a
 │   └── ranking.html       # Top-10 leaderboard partial
 ├── assets/
 │   ├── css/
-│   │   └── style.css      # Responsive styling, kid-friendly design (Comic Sans, gradients)
+│   │   └── style.css      # Responsive styling, kid-friendly design (Comic Neue, gradients)
+│   ├── fonts/
+│   │   ├── ComicNeue-Regular.woff2  # Self-hosted web font (400)
+│   │   └── ComicNeue-Bold.woff2     # Self-hosted web font (700)
 │   └── js/
 │       └── main.js        # Client-side: fetch rankings, render leaderboard, submit votes
 ├── index.html             # Home page (uses default layout, includes partials)
